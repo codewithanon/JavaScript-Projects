@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oswald&family=Poppins:wght@200&family=Uchen&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Uchen', serif;
+    box-sizing: border-box;
+    outline: none;
+    background-color: #c7fff4;
+
+}
+
+.container {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c7fff4;
+    cursor: default;
+}
+
+.calc {
+    box-shadow: inset 6px 6px 13px #fff,
+    inset -6px -6px 13px rgba(0, 0, 0, .16);
+    padding: 26px;
+    border-radius: 28px;
+    display: grid;
+    grid-template-columns: repeat(4, 66px);
+
+}
+
+.calc input {
+    grid-column: span 4;
+    height: 68;
+    width: 258px;
+    box-shadow: inset -6px -6px 13px #fff,
+                inset 6px 6px 13px rgba(0, 0, 0, .16);
+                border: none;
+                background-color: #c7fff4;
+                border-radius: 32px;
+                color: rgb(25, 25, 26);
+                text-align: end;
+                font-size: 40px;
+                padding: 20px;
+                margin: 40px,0,30px,0;
+                
+}
+#equal{
+    box-shadow: inset 6px 6px 13px #fff,
+    6px 6px 13px rgba(0, 0, 0, .16);
+    border: none;
+    background-color: #c7fff4;
+    border-radius: 42px;
+    width: 120px;
+    font-size: 25px;
+}
+.btn{
+
+    box-shadow: inset 6px 6px 13px #fff,
+                6px 6px 13px rgba(0, 0, 0, .16);
+                border: none;
+                background-color: #c7fff4;
+                border-radius: 50%;
+                width: 48px;
+                height: 48px;
+                margin: 10px;
+                font-weight: bold;
+                font-size: 20px;
+                cursor: pointer;
+
+}
